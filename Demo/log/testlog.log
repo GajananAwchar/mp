@@ -1,0 +1,363 @@
+2022-07-08 12:14:37,114 - netBanking -INFO - URL is opened
+2022-07-08 12:14:37,191 - netBanking -INFO - entered username
+2022-07-08 12:14:37,236 - netBanking -INFO - entered password
+2022-07-08 12:14:38,159 - netBanking -INFO - clicked on submit button
+2022-07-08 12:14:41,177 - netBanking -INFO - login test passed
+2022-07-08 12:21:19,965 - netBanking -INFO - URL is opened
+2022-07-08 12:21:20,037 - netBanking -INFO - entered username
+2022-07-08 12:21:20,079 - netBanking -INFO - entered password
+2022-07-08 12:21:20,996 - netBanking -INFO - clicked on submit button
+2022-07-08 12:21:24,009 - netBanking -INFO - login test passed
+2022-07-08 12:21:28,775 - netBanking -INFO - URL is opened
+2022-07-08 12:21:28,826 - netBanking -INFO - entered username
+2022-07-08 12:21:28,866 - netBanking -INFO - entered password
+2022-07-08 12:21:29,794 - netBanking -INFO - clicked on submit button
+2022-07-08 12:21:29,803 - netBanking -INFO - login test passed
+2022-07-08 12:21:31,299 - netBanking -INFO - switched to login Page
+2022-07-08 12:21:32,209 - netBanking -INFO - URL is opened
+2022-07-08 12:21:32,253 - netBanking -INFO - entered username
+2022-07-08 12:21:32,288 - netBanking -INFO - entered password
+2022-07-08 12:21:33,405 - netBanking -INFO - clicked on submit button
+2022-07-08 12:21:36,781 - netBanking -INFO - switched to login Page
+2022-07-08 12:21:37,663 - netBanking -INFO - URL is opened
+2022-07-08 12:21:37,708 - netBanking -INFO - entered username
+2022-07-08 12:21:37,744 - netBanking -INFO - entered password
+2022-07-08 12:21:38,092 - netBanking -INFO - clicked on submit button
+2022-07-08 12:21:39,969 - netBanking -INFO - switched to login Page
+2022-07-08 12:21:41,341 - netBanking -INFO - URL is opened
+2022-07-08 12:21:41,396 - netBanking -INFO - entered username
+2022-07-08 12:21:41,439 - netBanking -INFO - entered password
+2022-07-08 12:21:41,807 - netBanking -INFO - clicked on submit button
+2022-07-08 12:21:43,675 - netBanking -INFO - switched to login Page
+2022-07-08 12:21:45,942 - netBanking -INFO - URL is opened
+2022-07-08 12:21:45,989 - netBanking -INFO - entered username
+2022-07-08 12:21:46,022 - netBanking -INFO - entered password
+2022-07-08 12:21:46,378 - netBanking -INFO - clicked on submit button
+2022-07-08 12:21:47,486 - netBanking -INFO - switched to login Page
+2022-07-08 14:31:24,628 - netBanking -INFO - URL is opened
+2022-07-08 14:31:24,718 - netBanking -INFO - entered username
+2022-07-08 14:31:24,775 - netBanking -INFO - entered password
+2022-07-08 14:31:25,778 - netBanking -INFO - clicked on submit button
+2022-07-08 14:31:28,791 - netBanking -INFO - login test passed
+2022-07-08 14:31:33,347 - netBanking -INFO - URL is opened
+2022-07-08 14:31:33,414 - netBanking -INFO - entered username
+2022-07-08 14:31:33,472 - netBanking -INFO - entered password
+2022-07-08 14:31:34,459 - netBanking -INFO - clicked on submit button
+2022-07-08 14:31:34,470 - netBanking -INFO - login test passed
+2022-07-08 14:31:36,019 - netBanking -INFO - switched to login Page
+2022-07-08 14:31:36,883 - netBanking -INFO - URL is opened
+2022-07-08 14:31:36,942 - netBanking -INFO - entered username
+2022-07-08 14:31:36,995 - netBanking -INFO - entered password
+2022-07-08 14:31:37,355 - netBanking -INFO - clicked on submit button
+2022-07-08 14:31:38,258 - netBanking -INFO - switched to login Page
+2022-07-08 15:09:51,290 - netBanking -INFO - URL is opened
+2022-07-08 15:09:51,429 - netBanking -INFO - entered username
+2022-07-08 15:09:51,508 - netBanking -INFO - entered password
+2022-07-08 15:09:52,572 - netBanking -INFO - clicked on submit button
+2022-07-08 15:09:55,590 - netBanking -INFO - login test passed
+2022-07-08 15:10:01,466 - netBanking -INFO - URL is opened
+2022-07-08 15:10:01,527 - netBanking -INFO - entered username
+2022-07-08 15:10:01,589 - netBanking -INFO - entered password
+2022-07-08 15:10:04,017 - netBanking -INFO - clicked on submit button
+2022-07-08 15:10:04,031 - netBanking -INFO - login test passed
+2022-07-08 15:10:05,896 - netBanking -INFO - switched to login Page
+2022-07-08 15:10:07,354 - netBanking -INFO - URL is opened
+2022-07-08 15:10:07,443 - netBanking -INFO - entered username
+2022-07-08 15:10:07,518 - netBanking -INFO - entered password
+2022-07-08 15:10:09,243 - netBanking -INFO - clicked on submit button
+2022-07-08 15:10:12,314 - netBanking -INFO - switched to login Page
+2022-07-08 15:10:14,732 - netBanking -INFO - URL is opened
+2022-07-08 15:10:14,818 - netBanking -INFO - entered username
+2022-07-08 15:10:14,903 - netBanking -INFO - entered password
+2022-07-08 15:10:15,312 - netBanking -INFO - clicked on submit button
+2022-07-08 15:10:16,732 - netBanking -INFO - switched to login Page
+2022-07-08 15:10:17,709 - netBanking -INFO - URL is opened
+2022-07-08 15:10:17,806 - netBanking -INFO - entered username
+2022-07-08 15:10:17,890 - netBanking -INFO - entered password
+2022-07-08 15:10:18,322 - netBanking -INFO - clicked on submit button
+2022-07-08 15:10:20,129 - netBanking -INFO - switched to login Page
+2022-07-08 15:10:21,138 - netBanking -INFO - URL is opened
+2022-07-08 15:10:21,216 - netBanking -INFO - entered username
+2022-07-08 15:10:21,300 - netBanking -INFO - entered password
+2022-07-08 15:10:21,719 - netBanking -INFO - clicked on submit button
+2022-07-08 15:10:25,543 - netBanking -INFO - switched to login Page
+2022-07-09 16:08:15,355 - netBanking -INFO - URL is opened
+2022-07-09 16:08:15,427 - netBanking -INFO - entered username
+2022-07-09 16:08:15,473 - netBanking -INFO - entered password
+2022-07-09 16:08:17,280 - netBanking -INFO - clicked on submit button
+2022-07-09 16:08:24,927 - netBanking -INFO - switched to login Page
+2022-07-09 16:24:09,685 - netBanking -INFO - URL is opened
+2022-07-09 16:24:09,830 - netBanking -INFO - entered username
+2022-07-09 16:24:13,957 - netBanking -INFO - entered password
+2022-07-09 16:24:16,702 - netBanking -INFO - clicked on submit button
+2022-07-09 16:24:29,026 - netBanking -INFO - switched to login Page
+2022-07-09 16:46:42,349 - netBanking -INFO - URL is opened
+2022-07-09 16:46:42,502 - netBanking -INFO - entered username
+2022-07-09 16:46:46,597 - netBanking -INFO - entered password
+2022-07-09 16:46:49,620 - netBanking -INFO - clicked on submit button
+2022-07-09 16:47:02,002 - netBanking -INFO - switched to login Page
+2022-07-09 16:47:15,865 - netBanking -INFO - URL is opened
+2022-07-09 16:47:15,952 - netBanking -INFO - entered username
+2022-07-09 16:47:20,050 - netBanking -INFO - entered password
+2022-07-09 16:47:26,327 - netBanking -INFO - clicked on submit button
+2022-07-09 16:53:49,582 - netBanking -INFO - URL is opened
+2022-07-09 16:53:49,738 - netBanking -INFO - entered username
+2022-07-09 16:53:53,834 - netBanking -INFO - entered password
+2022-07-09 16:53:57,030 - netBanking -INFO - clicked on submit button
+2022-07-09 16:54:05,198 - netBanking -INFO - switched to login Page
+2022-07-09 17:01:45,817 - netBanking -INFO - URL is opened
+2022-07-09 17:01:45,942 - netBanking -INFO - entered username
+2022-07-09 17:01:50,028 - netBanking -INFO - entered password
+2022-07-09 17:02:02,384 - netBanking -INFO - URL is opened
+2022-07-09 17:02:02,466 - netBanking -INFO - entered username
+2022-07-09 17:02:06,550 - netBanking -INFO - entered password
+2022-07-10 14:05:17,136 - netBanking -INFO - URL is opened
+2022-07-10 14:05:21,293 - netBanking -INFO - entered username
+2022-07-10 14:05:27,412 - netBanking -INFO - entered password
+2022-07-10 14:05:59,881 - netBanking -INFO - clicked on submit button
+2022-07-10 14:06:01,910 - netBanking -INFO - login test passed
+2022-07-10 14:06:07,635 - netBanking -INFO - switched to login Page
+2022-07-10 14:06:14,789 - netBanking -INFO - URL is opened
+2022-07-10 14:06:14,928 - netBanking -INFO - entered username
+2022-07-10 14:06:19,044 - netBanking -INFO - entered password
+2022-07-10 14:06:59,274 - netBanking -INFO - clicked on submit button
+2022-07-10 14:07:01,297 - netBanking -INFO - login test passed
+2022-07-10 14:07:07,274 - netBanking -INFO - switched to login Page
+2022-07-10 14:12:29,466 - netBanking -INFO - URL is opened
+2022-07-10 14:12:33,610 - netBanking -INFO - entered username
+2022-07-10 14:12:39,727 - netBanking -INFO - entered password
+2022-07-10 14:12:41,920 - netBanking -INFO - clicked on submit button
+2022-07-10 14:12:43,954 - netBanking -INFO - login test passed
+2022-07-10 15:06:55,719 - netBanking -INFO - URL is opened
+2022-07-10 15:06:59,874 - netBanking -INFO - entered username
+2022-07-10 15:07:05,998 - netBanking -INFO - entered password
+2022-07-10 15:07:54,429 - netBanking -INFO - clicked on submit button
+2022-07-10 15:08:45,997 - netBanking -INFO - switched to login Page
+2022-07-10 15:08:45,997 - netBanking -INFO - login test passed
+2022-07-10 15:11:21,342 - netBanking -INFO - URL is opened
+2022-07-10 15:11:25,509 - netBanking -INFO - entered username
+2022-07-10 15:11:31,604 - netBanking -INFO - entered password
+2022-07-10 15:12:18,923 - netBanking -INFO - clicked on submit button
+2022-07-10 15:14:30,382 - netBanking -INFO - URL is opened
+2022-07-10 15:14:34,524 - netBanking -INFO - entered username
+2022-07-10 15:14:40,641 - netBanking -INFO - entered password
+2022-07-10 15:15:13,248 - netBanking -INFO - clicked on submit button
+2022-07-10 15:15:25,008 - netBanking -INFO - switched to login Page
+2022-07-10 15:15:25,008 - netBanking -INFO - login test passed
+2022-07-10 15:27:00,942 - netBanking -INFO - URL is opened
+2022-07-10 15:27:01,085 - netBanking -INFO - entered username
+2022-07-10 15:27:05,179 - netBanking -INFO - entered password
+2022-07-10 15:27:43,019 - netBanking -INFO - clicked on submit button
+2022-07-10 15:27:45,050 - netBanking -INFO - login test passed
+2022-07-10 15:28:34,832 - netBanking -INFO - switched to login Page
+2022-07-10 15:30:06,126 - netBanking -INFO - URL is opened
+2022-07-10 15:30:06,236 - netBanking -INFO - entered username
+2022-07-10 15:30:10,335 - netBanking -INFO - entered password
+2022-07-10 15:30:56,824 - netBanking -INFO - clicked on submit button
+2022-07-10 15:30:58,840 - netBanking -INFO - login test passed
+2022-07-10 15:31:47,776 - netBanking -INFO - switched to login Page
+2022-07-11 09:16:25,176 - netBanking -INFO - URL is opened
+2022-07-11 09:16:25,278 - netBanking -INFO - entered username
+2022-07-11 09:16:29,352 - netBanking -INFO - entered password
+2022-07-11 09:16:34,562 - netBanking -INFO - clicked on submit button
+2022-07-11 09:16:36,591 - netBanking -INFO - login test passed
+2022-07-11 09:16:41,100 - netBanking -INFO - switched to login Page
+2022-07-11 09:34:23,116 - netBanking -INFO - URL is opened
+2022-07-11 09:34:23,198 - netBanking -INFO - entered username
+2022-07-11 09:34:27,268 - netBanking -INFO - entered password
+2022-07-11 09:34:30,233 - netBanking -INFO - clicked on submit button
+2022-07-11 09:34:32,268 - netBanking -INFO - login test passed
+2022-07-11 09:34:37,363 - netBanking -INFO - switched to login Page
+2022-07-11 09:34:39,194 - netBanking -INFO - URL is opened
+2022-07-11 09:34:39,246 - netBanking -INFO - entered username
+2022-07-11 09:34:43,321 - netBanking -INFO - entered password
+2022-07-11 09:34:47,619 - netBanking -INFO - clicked on submit button
+2022-07-11 09:34:49,637 - netBanking -INFO - login test passed
+2022-07-11 09:34:55,144 - netBanking -INFO - switched to login Page
+2022-07-11 09:34:56,958 - netBanking -INFO - URL is opened
+2022-07-11 09:34:57,006 - netBanking -INFO - entered username
+2022-07-11 09:35:01,084 - netBanking -INFO - entered password
+2022-07-11 09:35:04,619 - netBanking -INFO - clicked on submit button
+2022-07-11 09:35:06,635 - netBanking -INFO - login test passed
+2022-07-11 09:35:11,276 - netBanking -INFO - switched to login Page
+2022-07-11 09:35:12,211 - netBanking -INFO - URL is opened
+2022-07-11 09:35:12,261 - netBanking -INFO - entered username
+2022-07-11 09:35:16,329 - netBanking -INFO - entered password
+2022-07-11 09:35:23,132 - netBanking -INFO - clicked on submit button
+2022-07-11 09:35:25,149 - netBanking -INFO - login test passed
+2022-07-11 09:35:29,849 - netBanking -INFO - switched to login Page
+2022-07-11 09:35:31,113 - netBanking -INFO - URL is opened
+2022-07-11 09:35:31,161 - netBanking -INFO - entered username
+2022-07-11 09:35:35,231 - netBanking -INFO - entered password
+2022-07-11 09:35:38,066 - netBanking -INFO - clicked on submit button
+2022-07-11 09:35:40,077 - netBanking -INFO - login test passed
+2022-07-11 09:35:44,225 - netBanking -INFO - switched to login Page
+2022-07-11 09:38:48,651 - netBanking -INFO - URL is opened
+2022-07-11 09:38:48,759 - netBanking -INFO - entered username
+2022-07-11 09:38:52,828 - netBanking -INFO - entered password
+2022-07-11 09:38:55,898 - netBanking -INFO - clicked on submit button
+2022-07-11 09:38:57,925 - netBanking -INFO - login test passed
+2022-07-11 09:39:06,879 - netBanking -INFO - switched to login Page
+2022-07-11 09:39:09,554 - netBanking -INFO - URL is opened
+2022-07-11 09:39:09,599 - netBanking -INFO - entered username
+2022-07-11 09:39:13,678 - netBanking -INFO - entered password
+2022-07-11 09:39:18,403 - netBanking -INFO - clicked on submit button
+2022-07-11 09:39:20,413 - netBanking -INFO - login test passed
+2022-07-11 09:39:27,799 - netBanking -INFO - switched to login Page
+2022-07-11 09:39:35,455 - netBanking -INFO - URL is opened
+2022-07-11 09:39:35,500 - netBanking -INFO - entered username
+2022-07-11 09:39:39,566 - netBanking -INFO - entered password
+2022-07-11 09:39:46,515 - netBanking -INFO - clicked on submit button
+2022-07-11 09:39:48,525 - netBanking -INFO - login test passed
+2022-07-11 09:39:53,093 - netBanking -INFO - switched to login Page
+2022-07-11 09:39:53,931 - netBanking -INFO - URL is opened
+2022-07-11 09:39:53,978 - netBanking -INFO - entered username
+2022-07-11 09:39:58,048 - netBanking -INFO - entered password
+2022-07-11 09:40:01,634 - netBanking -INFO - clicked on submit button
+2022-07-11 09:40:03,646 - netBanking -INFO - login test passed
+2022-07-11 09:40:15,955 - netBanking -INFO - switched to login Page
+2022-07-11 09:40:19,016 - netBanking -INFO - URL is opened
+2022-07-11 09:40:19,060 - netBanking -INFO - entered username
+2022-07-11 09:40:23,130 - netBanking -INFO - entered password
+2022-07-11 09:40:27,365 - netBanking -INFO - clicked on submit button
+2022-07-11 09:40:29,371 - netBanking -INFO - login test passed
+2022-07-11 09:40:37,495 - netBanking -INFO - switched to login Page
+2022-07-11 09:44:15,754 - netBanking -INFO - URL is opened
+2022-07-11 09:44:15,832 - netBanking -INFO - entered username
+2022-07-11 09:44:19,901 - netBanking -INFO - entered password
+2022-07-11 09:44:23,357 - netBanking -INFO - clicked on submit button
+2022-07-11 09:44:25,386 - netBanking -INFO - login test passed
+2022-07-11 09:44:30,529 - netBanking -INFO - switched to login Page
+2022-07-11 09:44:32,941 - netBanking -INFO - URL is opened
+2022-07-11 09:44:32,997 - netBanking -INFO - entered username
+2022-07-11 09:44:37,072 - netBanking -INFO - entered password
+2022-07-11 09:44:41,059 - netBanking -INFO - clicked on submit button
+2022-07-11 09:44:43,070 - netBanking -INFO - login test passed
+2022-07-11 09:44:48,393 - netBanking -INFO - switched to login Page
+2022-07-11 09:44:50,176 - netBanking -INFO - URL is opened
+2022-07-11 09:44:50,221 - netBanking -INFO - entered username
+2022-07-11 09:44:54,276 - netBanking -INFO - entered password
+2022-07-11 09:44:57,603 - netBanking -INFO - clicked on submit button
+2022-07-11 09:44:59,606 - netBanking -INFO - login test passed
+2022-07-11 09:45:04,154 - netBanking -INFO - switched to login Page
+2022-07-11 09:45:05,010 - netBanking -INFO - URL is opened
+2022-07-11 09:45:05,060 - netBanking -INFO - entered username
+2022-07-11 09:45:09,110 - netBanking -INFO - entered password
+2022-07-11 09:45:12,810 - netBanking -INFO - clicked on submit button
+2022-07-11 09:45:14,814 - netBanking -INFO - login test passed
+2022-07-11 09:45:20,932 - netBanking -INFO - switched to login Page
+2022-07-11 09:45:21,799 - netBanking -INFO - URL is opened
+2022-07-11 09:45:21,844 - netBanking -INFO - entered username
+2022-07-11 09:45:25,906 - netBanking -INFO - entered password
+2022-07-11 09:45:28,695 - netBanking -INFO - clicked on submit button
+2022-07-11 09:45:30,699 - netBanking -INFO - login test passed
+2022-07-11 09:45:37,519 - netBanking -INFO - switched to login Page
+2022-07-11 09:51:27,891 - netBanking -INFO - URL is opened
+2022-07-11 09:51:27,972 - netBanking -INFO - entered username
+2022-07-11 09:51:32,051 - netBanking -INFO - entered password
+2022-07-11 09:51:38,533 - netBanking -INFO - clicked on submit button
+2022-07-11 09:51:40,561 - netBanking -INFO - login test passed
+2022-07-11 09:51:45,936 - netBanking -INFO - switched to login Page
+2022-07-11 09:51:46,901 - netBanking -INFO - URL is opened
+2022-07-11 09:51:46,953 - netBanking -INFO - entered username
+2022-07-11 09:51:51,025 - netBanking -INFO - entered password
+2022-07-11 09:51:55,217 - netBanking -INFO - clicked on submit button
+2022-07-11 09:51:57,232 - netBanking -INFO - login test passed
+2022-07-11 09:52:01,926 - netBanking -INFO - switched to login Page
+2022-07-11 09:52:02,864 - netBanking -INFO - URL is opened
+2022-07-11 09:52:02,908 - netBanking -INFO - entered username
+2022-07-11 09:52:06,979 - netBanking -INFO - entered password
+2022-07-11 09:52:11,270 - netBanking -INFO - clicked on submit button
+2022-07-11 09:52:13,291 - netBanking -INFO - login test passed
+2022-07-11 09:52:19,100 - netBanking -INFO - switched to login Page
+2022-07-11 09:52:20,445 - netBanking -INFO - URL is opened
+2022-07-11 09:52:20,494 - netBanking -INFO - entered username
+2022-07-11 09:52:24,544 - netBanking -INFO - entered password
+2022-07-11 09:52:28,057 - netBanking -INFO - clicked on submit button
+2022-07-11 09:52:30,078 - netBanking -INFO - login test passed
+2022-07-11 09:52:35,853 - netBanking -INFO - switched to login Page
+2022-07-11 09:52:36,760 - netBanking -INFO - URL is opened
+2022-07-11 09:52:36,803 - netBanking -INFO - entered username
+2022-07-11 09:52:40,864 - netBanking -INFO - entered password
+2022-07-11 09:52:44,329 - netBanking -INFO - clicked on submit button
+2022-07-11 09:52:46,343 - netBanking -INFO - login test passed
+2022-07-11 09:52:50,775 - netBanking -INFO - switched to login Page
+2022-07-11 13:56:38,271 - netBanking -INFO - URL is opened
+2022-07-11 13:56:42,383 - netBanking -INFO - entered username
+2022-07-11 13:56:48,464 - netBanking -INFO - entered password
+2022-07-11 13:56:51,484 - netBanking -INFO - clicked on submit button
+2022-07-11 13:56:59,671 - netBanking -INFO - switched  f to login Page
+2022-07-11 13:56:59,671 - netBanking -INFO - login test passed
+2022-07-11 13:59:24,659 - netBanking -INFO - URL is opened
+2022-07-11 13:59:28,761 - netBanking -INFO - entered username
+2022-07-11 13:59:34,850 - netBanking -INFO - entered password
+2022-07-11 13:59:37,921 - netBanking -INFO - clicked on submit button
+2022-07-11 14:25:26,745 - netBanking -INFO - URL is opened
+2022-07-11 14:25:30,850 - netBanking -INFO - entered username
+2022-07-11 14:25:36,928 - netBanking -INFO - entered password
+2022-07-11 14:25:40,004 - netBanking -INFO - clicked on submit button
+2022-07-11 14:28:04,588 - netBanking -INFO - URL is opened
+2022-07-11 14:28:08,696 - netBanking -INFO - entered username
+2022-07-11 14:28:14,789 - netBanking -INFO - entered password
+2022-07-11 14:28:17,783 - netBanking -INFO - clicked on submit button
+2022-07-11 14:33:10,520 - netBanking -INFO - URL is opened
+2022-07-11 14:33:14,615 - netBanking -INFO - entered username
+2022-07-11 14:33:20,711 - netBanking -INFO - entered password
+2022-07-11 14:33:23,977 - netBanking -INFO - clicked on submit button
+2022-07-11 14:33:32,280 - netBanking -INFO - switched  f to login Page
+2022-07-11 14:33:32,282 - netBanking -INFO - login test passed
+2022-07-12 09:46:22,624 - netBanking -INFO - URL is opened
+2022-07-12 09:46:26,756 - netBanking -INFO - entered username
+2022-07-12 09:46:32,857 - netBanking -INFO - entered password
+2022-07-12 09:46:36,795 - netBanking -INFO - clicked on submit button
+2022-07-12 09:46:45,392 - netBanking -INFO - switched  f to login Page
+2022-07-12 09:46:45,394 - netBanking -INFO - login test passed
+2022-07-20 16:56:14,354 - netBanking -INFO - URL is opened
+2022-07-20 16:57:31,292 - netBanking -INFO - URL is opened
+2022-07-20 17:08:47,127 - netBanking -INFO - URL is opened
+2022-07-20 17:08:51,222 - netBanking -INFO - entered username
+2022-07-20 17:08:57,339 - netBanking -INFO - entered password
+2022-07-20 17:09:21,209 - netBanking -INFO - clicked on submit button
+2022-07-20 17:09:54,788 - netBanking -INFO - URL is opened
+2022-07-20 17:09:58,855 - netBanking -INFO - entered username
+2022-07-20 17:10:04,954 - netBanking -INFO - entered password
+2022-07-20 17:10:10,084 - netBanking -INFO - clicked on submit button
+2022-07-20 17:10:48,677 - netBanking -INFO - URL is opened
+2022-07-20 17:10:52,745 - netBanking -INFO - entered username
+2022-07-20 17:10:58,838 - netBanking -INFO - entered password
+2022-07-20 17:11:03,147 - netBanking -INFO - clicked on submit button
+2022-07-20 17:13:46,890 - netBanking -INFO - URL is opened
+2022-07-20 17:13:50,968 - netBanking -INFO - entered username
+2022-07-20 17:13:57,044 - netBanking -INFO - entered password
+2022-07-20 17:14:00,759 - netBanking -INFO - clicked on submit button
+2022-07-20 17:35:18,718 - netBanking -INFO - URL is opened
+2022-07-20 17:35:22,800 - netBanking -INFO - entered username
+2022-07-20 17:35:28,882 - netBanking -INFO - entered password
+2022-07-20 17:35:36,344 - netBanking -INFO - clicked on submit button
+2022-07-22 17:16:23,511 - netBanking -INFO - URL is opened
+2022-07-22 17:20:50,280 - netBanking -INFO - URL is opened
+2022-07-22 17:20:54,405 - netBanking -INFO - entered username
+2022-07-22 17:21:00,487 - netBanking -INFO - entered password
+2022-07-22 17:21:04,705 - netBanking -INFO - clicked on submit button
+2022-07-22 17:21:04,722 - netBanking -INFO - logged in successfully
+2022-07-22 17:28:44,139 - netBanking -INFO - URL is opened
+2022-07-22 17:28:48,247 - netBanking -INFO - entered username
+2022-07-22 17:28:54,342 - netBanking -INFO - entered password
+2022-07-22 17:28:58,518 - netBanking -INFO - clicked on submit button
+2022-07-22 17:28:58,535 - netBanking -INFO - logged in successfully
+2022-07-26 17:24:13,932 - netBanking -INFO - URL is opened
+2022-07-26 17:24:18,026 - netBanking -INFO - entered username
+2022-07-26 17:24:24,117 - netBanking -INFO - entered password
+2022-07-26 17:24:30,509 - netBanking -INFO - clicked on submit button
+2022-07-26 17:24:30,525 - netBanking -INFO - logged in successfully
+2022-07-29 09:21:23,075 - netBanking -INFO - URL is opened
+2022-07-29 09:21:27,252 - netBanking -INFO - entered username
+2022-07-29 09:21:33,345 - netBanking -INFO - entered password
+2022-07-29 09:21:41,315 - netBanking -INFO - clicked on submit button
+2022-07-29 09:21:41,330 - netBanking -INFO - logged in successfully
+2022-07-29 09:29:09,923 - netBanking -INFO - URL is opened
+2022-07-29 09:29:14,014 - netBanking -INFO - entered username
+2022-07-29 09:29:20,108 - netBanking -INFO - entered password
+2022-07-29 09:29:26,310 - netBanking -INFO - clicked on submit button
+2022-07-29 09:29:26,327 - netBanking -INFO - logged in successfully
+2022-07-29 09:29:30,491 - netBanking -INFO - User Entered FirstName
