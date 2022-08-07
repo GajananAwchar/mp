@@ -20,23 +20,23 @@ public class BaseClass {
 	public String password = rd.getPassword();
 	@Parameters("browser")
 	@BeforeClass
-	public void setup(String br) {
+	public void setup(String browser) {
 		
 		logger = Logger.getLogger("netBanking");
 		PropertyConfigurator.configure("Log4j.Properties");
-		if(br.equals("chrome")) {
+		if(browser.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", rd.getChromePath());
 			 driver= new ChromeDriver();
 		}
-		else if(br.equals("edge")){
+		else if(browser.equals("edge")){
 			System.setProperty("webdriver.edge.driver", rd.getEdgepath());
 			 driver= new EdgeDriver();
 		}
-		else if(br.equals("firefox")) {
+		else if(browser.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", rd.getFirefoxPath());
 			 driver= new FirefoxDriver();
 		}
-		else if(br.equals("opera")) {
+		else if(browser.equals("opera")) {
 			System.setProperty("webdriver.opera.driver", rd.getOperaPath());
 			 driver= new OperaDriver();
 		} 

@@ -1,35 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-31T13:41:59 IST" name="Default suite" finished-at="2022-07-31T13:42:21 IST" duration-ms="22010">
+  <suite started-at="2022-08-04T01:20:34 IST" name="Suite" finished-at="2022-08-04T01:22:20 IST" duration-ms="105931">
     <groups>
     </groups>
-    <test started-at="2022-07-31T13:41:59 IST" name="Default test" finished-at="2022-07-31T13:42:21 IST" duration-ms="22010">
-      <class name="com.demo.sikulipracticeTest.SikuliPractice">
-        <test-method signature="testSikuli()[pri:0, instance:com.demo.sikulipracticeTest.SikuliPractice@72e5a8e]" started-at="2022-07-31T13:41:59 IST" name="testSikuli" finished-at="2022-07-31T13:42:21 IST" duration-ms="21968" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+    <test started-at="2022-08-04T01:20:34 IST" name="Test" finished-at="2022-08-04T01:22:20 IST" duration-ms="105931">
+      <class name="com.demo.tests.LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demo.tests.LoginTest_001@5890e879]" started-at="2022-08-04T01:20:34 IST" name="setup" finished-at="2022-08-04T01:20:40 IST" duration-ms="6297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.demo.tests.LoginTest_001@5890e879]" started-at="2022-08-04T01:20:40 IST" name="loginTest" finished-at="2022-08-04T01:21:06 IST" duration-ms="25670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demo.tests.LoginTest_001@5890e879]" started-at="2022-08-04T01:21:06 IST" name="teardown" finished-at="2022-08-04T01:21:06 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demo.tests.LoginTest_001 -->
+      <class name="com.demo.tests.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:21:06 IST" name="setup" finished-at="2022-08-04T01:21:13 IST" duration-ms="6681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:21:13 IST" name="loginDDT" data-provider="LoginData" finished-at="2022-08-04T01:21:29 IST" duration-ms="15619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr429679]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jYdyvYg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:21:29 IST" name="loginDDT" data-provider="LoginData" finished-at="2022-08-04T01:21:40 IST" duration-ms="11077" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr429679]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mngr429679]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]]]>
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
 Build info: version: '4.0.0', revision: '3a21814679'
 System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
-at com.demo.sikulipracticeTest.SikuliPractice.testSikuli(SikuliPractice.java:20)
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+at com.demo.utilities.Screenshot.captureScreen(Screenshot.java:16)
+at com.demo.tests.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,68 +127,251 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:83)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:21:40 IST" name="loginDDT" data-provider="LoginData" finished-at="2022-08-04T01:21:53 IST" duration-ms="12781" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr423177]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahjjjjjaguh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-... 35 more
-Caused by: java.util.concurrent.ExecutionException: java.lang.ClassNotFoundException: io.netty.handler.codec.compression.Brotli
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)
-... 48 more
-Caused by: java.lang.ClassNotFoundException: io.netty.handler.codec.compression.Brotli
-at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-at io.netty.handler.codec.http.HttpContentDecompressor.newContentDecoder(HttpContentDecompressor.java:70)
-at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:100)
-at io.netty.handler.codec.http.HttpContentDecoder.decode(HttpContentDecoder.java:47)
-at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:88)
-at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
-at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:321)
-at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:308)
-at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:422)
-at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
-at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
-at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+at com.demo.utilities.Screenshot.captureScreen(Screenshot.java:16)
+at com.demo.tests.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSikuli -->
-      </class> <!-- com.demo.sikulipracticeTest.SikuliPractice -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:21:53 IST" name="loginDDT" data-provider="LoginData" finished-at="2022-08-04T01:22:06 IST" duration-ms="13282" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr423177]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahaguh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+at com.demo.utilities.Screenshot.captureScreen(Screenshot.java:16)
+at com.demo.tests.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:22:06 IST" name="loginDDT" data-provider="LoginData" finished-at="2022-08-04T01:22:19 IST" duration-ms="13283" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr423177]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahaguh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: MicrosoftEdge=103.0.1264.77): User or Password is not valid
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-9VQSPT3', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [40e4eebed3136dfb83c34d90e830ca79, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.77, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61252}, msedge: {msedgedriverVersion: 103.0.1264.77 (2b250f2585e4..., userDataDir: C:\Users\MOBILE~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61252/devtoo..., se:cdpVersion: 103.0.1264.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e4eebed3136dfb83c34d90e830ca79
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+at com.demo.utilities.Screenshot.captureScreen(Screenshot.java:16)
+at com.demo.tests.TC_LoginDDT_002.loginDDT(TC_LoginDDT_002.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.demo.tests.TC_LoginDDT_002@2b40ff9c]" started-at="2022-08-04T01:22:19 IST" name="teardown" finished-at="2022-08-04T01:22:20 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.demo.tests.TC_LoginDDT_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

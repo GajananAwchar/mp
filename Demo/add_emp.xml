@@ -3,12 +3,12 @@
 
 <suite name="Suite">
 <listeners>
-<listener class-name="com.demo.utils.Reporting"></listener>
+<listener class-name="com.demo.utilities.Reporting"></listener>
 </listeners>
-<parameter name="browser" value="edge"></parameter>
+<parameter name="browser" value="chrome"></parameter>
   <test  name="Test">
     <classes>
-      <class name="com.orangehrm.tests.Login_tests"/>
+      <class name="com.demo.tests.LoginTest_001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

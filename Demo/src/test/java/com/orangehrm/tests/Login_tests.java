@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 import com.orangehrm.pages.Add_Employee_Page;
 import com.orangehrm.pages.Login_Page;
-import com.demo.utils.BaseClass;
 
 public class Login_tests extends BaseClass{
 	@Test(groups = "add_Employee", priority= 0)

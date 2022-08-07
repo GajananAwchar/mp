@@ -10,8 +10,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class Screenshot {
-	public static void captureScreen(WebDriver driver, String tname) throws IOException {
+public class Screenshot extends BaseClass {
+	public  static void captureScreen(WebDriver driver, String tname) throws IOException {
 		TakesScreenshot ts= (TakesScreenshot)driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp

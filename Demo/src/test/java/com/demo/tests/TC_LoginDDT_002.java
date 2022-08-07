@@ -5,17 +5,17 @@ import java.io.IOException;
 import org.openqa.selenium.NoAlertPresentException;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import org.testng.asserts.SoftAssert;
+
 import com.demo.pages.LoginPage;
+import com.demo.utilities.Screenshot;
 import com.demo.utilities.XLUtils;
+import com.demo.utils.BaseClass;
 public class TC_LoginDDT_002 extends BaseClass {
 	@Test(dataProvider="LoginData")
-	public void loginDDT(String user, String pwd) throws InterruptedException {
-		
+	public void loginDDT(String user, String pwd) throws  Exception   {
 		LoginPage lp = new LoginPage(driver);
-		lp.launchURL();
-		//driver.get(base_URL);
-		logger.info("URL is opened");
-		
+		ass = new SoftAssert();
 		lp.setUsername(user);
 		logger.info("entered username");
 		Thread.sleep(2000);
@@ -27,14 +27,15 @@ public class TC_LoginDDT_002 extends BaseClass {
 		logger.info("clicked on submit button");
 		if(isAlertPresent()==true) {
 			Thread.sleep(2000);
+			Screenshot.captureScreen(driver, "loginDDT");
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
 			logger.info("switched to login Page");
-			Assert.assertTrue(false);
+			ass.assertTrue(false);
 			logger.info("login test failed");
 		}
 		else {
-			Assert.assertTrue(true);
+			ass.assertTrue(true);
 			logger.info("login test passed");
 			lp.clickLogout();
 			Thread.sleep(2000);
@@ -42,6 +43,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 			driver.switchTo().defaultContent();
 			logger.info("switched to login Page");
 		}
+		ass.assertAll();
 	}
 	public boolean isAlertPresent() throws InterruptedException { // user defined method to check alert is present or not
 		try {
@@ -63,7 +65,7 @@ public class TC_LoginDDT_002 extends BaseClass {
 		for(int j=0; j<colcount; j++) {
 			// j is column number
 			// i is row number
-			logindata[i-1][j] = XLUtils.getCellData(path, "sheet1", i, j);
+			logindata[i-1][j] = XLUtils.getCellData(path, "sheet1", i, j); // 1,0
 		}
 	}
 	return logindata;
